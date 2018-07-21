@@ -1,0 +1,30 @@
+<?php
+#message class
+class Message{
+	public $messageId;
+	
+	public function __construct($id){
+		$this->messageId = $id;
+	}
+	
+	public function result(){
+		$query=$this->query("select * from `message` where message_id='".$this->messageId."'");
+		if($row=mysql_fetch_array($query)){
+			return $row;
+		}
+	}
+	
+	public function query($query){
+		if(!empty($query)){
+			$query1=mysql_query($query);
+			if($query1){
+				return $query1;
+			}else{
+				return "Query is not working";
+			}
+		}else{
+			return "please enterthe query";
+		}
+	}
+}
+?> 

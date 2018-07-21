@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* second menu */
+.menuDiv{
+	width:920px;
+	height:41px;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+	box-shadow:0 1px 1px 0 rgba(0,0,0,.15);
+	background:#FFF;
+	padding:5px;
+	margin-top:1px;
+}
+.downMenu{
+	height:30px;
+	background:;
+}
+.downMenu ul li{
+	list-style:none;
+	display:inline-block;
+	margin-top:5px;
+	font-family:Elegant Lux Mager;
+	font-size:17px;	
+	background:;
+}
+.linkMenu{
+	color:gray;
+	text-decoration:none;
+}
+.linkMenu:hover{
+	cursor:pointer;
+	color:#5fba7d;
+}
+.aLi{
+	margin-left:20px;
+}
+

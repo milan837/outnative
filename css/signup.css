@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+.middle_contain_div{
+	min-height:500px;
+	width:900px;
+	background:;
+	text-align:left;
+}
+.full_middle_div_content{
+	width:100%;
+	background:url(../images/4.jpg) fixed;
+	background-size:cover;
+	min-height:500px;
+	background:;
+}
+.login_main_div{
+	min-height:400px;
+	background:#FFF;
+	width:300px;
+	position:relative;
+	top:45px;
+	margin-left:20px;
+	border-radius:3px;
+	box-shadow:0 0 2px 0 rgba(0,0,0,.35);
+}
+.top_login_title_div{
+	height:45px;
+	background:#20698E;
+	padding:10px;
+	font-family:Elegant Lux Mager;
+	font-size:20px;
+	color: #FFF;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	padding-left:15px;
+}
+.error_display_div{
+	height:30px;
+	margin-top:5px;
+	color:orange;
+	font-family:Elegant Lux Mager;
+	font-size:15px;
+	padding:5px;
+	text-align:center;
+	padding-left:15px;
+}
+.input_box_container_div{
+	text-align:center;
+	height:210px;
+	background:;
+}
+.username{
+	outline:none;
+	margin-bottom:8px;
+	padding:5px;
+	border:0px;
+	font-family:Elegant Lux Mager;
+	font-size:17px;
+	width:270px;
+	color:gray;
+	text-indent:5px;
+	border-bottom:1px solid rgba(0,0,0,.44);
+	height:30px;
+}
+.textbox{
+	height:32px;
+	width:90%;
+	font-size:16px;
+	font-family:"Elegant Lux Mager";
+	margin-top:3px;
+	margin-bottom:6px;
+	border:0px;
+	padding-left:8px;
+	border-bottom:1px solid rgba(0,0,0,.44);
+	padding-right:8px;
+	outline:none;
+	background-color:rgb(255,255,255);
+}
+.button_container_div{
+	background:;
+	height:43px;
+	margin-top:5px;
+}
+.login_button{
+	background:#415b82;
+	width:270px;
+	height:38px;
+	border:0px;
+	border-radius:3px;
+	outline:none;
+	font-family:Elegant Lux Mager;
+	color:#FFF;
+	font-size:18px;
+	padding-bottom:5px;
+	cursor:pointer;
+}
+.login_button:active{
+	position:relative;
+	top:3px;
+}
+.last_text_div{
+	background:;
+	padding:5px;
+	font-family:Elegant Lux Mager;
+	font-size:16px;
+}
+.signUp_link{
+	text-decoration:none;
+	color:#20698E;
+}
+.signUp_link:hover{
+	text-decoration:underline;
+}
+.full{
+	width:100%;
+	height:100%;
+}

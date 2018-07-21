@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* home css */
+.main_div{
+	text-align:left;
+	background:;
+	min-height:500px;
+	width:920px;
+	margin-top:15px;
+}
+.include_header_div{
+	width:100%;
+	height:auto;
+	position:fixed;
+	z-index:1000;
+}
+.left_content_div{
+	float:left;
+	width:206px;
+	height:500px;
+	background:;
+	border-right:1px solid rgba(0, 0, 0, 0.2);
+}
+.center_content_div{
+	float:left;
+	margin-left:3px;
+	width:500px;
+	height:500px;
+	background:#FFF;
+	overflow:auto;
+	font-size:17px;
+	overflow-x:hidden;
+	font-family:Elegant Lux Mager;
+}
+.center_content_div::-webkit-scrollbar
+{
+  width: 7px;  /* for vertical scrollbars */
+  height: 5px; /* for horizontal scrollbars */
+}
+.center_content_div::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+.center_content_div::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.2);
+}
+.right_content_div{
+	margin-left:3px;
+	float:left;
+	width:205px;
+	height:500px;
+	background:;
+	border-left:1px solid rgba(0, 0, 0, 0.2);
+}
+.line_div{
+	margin-top:5px;
+	width:480px;
+	height:1px;
+	border-bottom:1px solid rgba(0, 0, 0, 0.2);
+}
+/*display image pop pop*/
+.pop_image_div{
+	background:#000;
+	height:100%;
+	width:100%;
+	position:fixed;
+	left:0%;
+	right:0%;
+	top:0%;
+	bottom:0%;
+	z-index:1000;
+	display:none;
+	background:rgba(0, 0, 0, .4);
+}
+.contain_image_div{
+	height:510px;
+	width:710px;
+	background:#FFF;
+	border-radius:3px;
+	margin-top:60px;
+}
+.top_image_main_container{
+	background:;
+	width:710px;
+	height:400px;
+}
+.image_list_div{
+	height:100px;
+	background:pink;
+	display:inline-block;
+}
+.list_images{
+	cursor:pointer;
+}
+.main_display_image{
+	max-width:800px;
+	max-height:400px;
+}
+.main_display_image img{
+	width:95%;
+	height:95%;
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+}
+.left_icon_div{
+	width:50px;
+	border-top-left-radius:3px;
+	position:relative;
+	height:100%;
+	cursor:pointer;
+	background:#000;
+	opacity:0.6;
+	float:left;
+}
+.right_icon_div{
+	border-top-right-radius:3px;
+	cursor:pointer;
+	width:50px;
+	position:relative;
+	height:100%;
+	background:#000;
+	opacity:0.6;
+	float:right;
+}

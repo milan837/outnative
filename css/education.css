@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* home css */
+.main_div{
+	text-align:left;
+	background:;
+	min-height:500px;
+	width:920px;
+	margin-top:15px;
+}
+.include_header_div{
+	width:100%;
+	height:auto;
+	position:fixed;
+	z-index:1000;
+}
+.left_content_div{
+	float:left;
+	width:206px;
+	height:500px;
+	background:;
+	border-right:1px solid rgba(0, 0, 0, 0.2);
+}
+.center_content_div{
+	padding:3px;
+	float:left;
+	margin-left:3px;
+	width:710px;
+	height:500px;
+	background:;
+	overflow:auto;
+	font-size:17px;
+	overflow-x:hidden;
+	text-align:left;
+	font-family:Elegant Lux Mager;
+}
+.center_content_div::-webkit-scrollbar
+{
+  width: 7px;  /* for vertical scrollbars */
+  height: 5px; /* for horizontal scrollbars */
+}
+.center_content_div::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+.center_content_div::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.2);
+}
+
+
+
